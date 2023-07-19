@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do list Act</title>
+</head>
+<body>
+    <h1>To do List</h1>
+    <form id="formToAddTasks">
+        <label for="todoItem">Write your task: </label><br>
+        <input type="text" id="todoItem" name="todoItem" value="Go grocery shopping"><br>
+        <input type="submit" value="Submit">
+    </form>
+
+    <div>
+        <h2> To Do Items</h2>
+        <p id="todo" class="items"></p>
+    </div>
+
+    <div class="doneItems">
+        <h2> Done </h2>
+        <p id="done" class="items"></p>
+    </div>
+    
+</body>
+<script src="script.js"></script>
+<style>
+    .items{
+        display:grid;
+    }
+</style>
+</html>
+
